@@ -1,0 +1,4 @@
+git status
+git add . (точка-все файлы)
+git commit -m "name commit"
+git push origin master

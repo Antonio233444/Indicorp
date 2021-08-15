@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+
+:root {
+    
+}
+
+.container {
+    max-width: 1046px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.header {
+    height: 793px;
+    background: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+
+}
+
+.nav {
+
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-right: 21px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: 600;
+    color: #737373;
+}
+
+
+.header__title {
+    font-size: 58px;
+    color: #252B42;
+    font-weight: 800;
+    text-transform: uppercase;
+    max-width: 509px;
+    margin-bottom: 35px;
+}
+
+.header__description {
+    font-size: 20px;
+    color: #737373;
+    font-weight: 600;
+    max-width: 376px;
+    margin-bottom: 35px;
+}
+
+.header__buttons {
+
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 36px;
+    border-radius: 37px;
+    font-weight: 700;
+}
+
+.btn--brand {
+    background-color: #FFA62B;
+    color: #fff;
+}
+
+.btn--secondary-outline {
+    background-color: transparent;
+    border: 1px solid #00A0C1;
+    color: #00A0C1;
+}
+
+.btn--brand:hover {
+    background-color: #fff;
+    color: #FFA62B;
+}
+
+.btn--secondary-outline:hover {
+    background-color: #00A0C1;
+    color: #fff;
+}
+
+.utp {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -20px;
+    left: 120px;
+}
+
+.utp__icon {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.utp__item {
+    min-width: 328px;
+    background-color: #fff;
+    margin-right: 30px;
+    padding: 35px 40px;
+}
+
+.utp__item--inversive {
+    background-color: #00A0C1;
+}
+
+.utp__title {
+    font-size: 24px;
+    color: #252B42;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.utp__text {
+    color: #737373;
+    font-weight: 500;
+    max-width: 218px;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}
