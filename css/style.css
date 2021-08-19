@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     position: relative;
-}
+}   
 
 :root {
     
@@ -17,7 +17,6 @@ body {
 .container {
     max-width: 1046px;
     margin: 0 auto;
-    padding: 20px 20px;
 }
 
 .header {
@@ -31,6 +30,7 @@ body {
 .header__container {
     display: flex;
     justify-content: space-between;
+    padding: 20px 20px;
 }
 
 .header__logo {
@@ -68,6 +68,7 @@ body {
     line-height: 24px;
     font-weight: 600;
     color: #737373;
+    display: block;
 }
 
 
@@ -203,7 +204,7 @@ body {
     max-width: 218px;
 }
 
-.icon {
+.utp__icon-pic {
     width: 48px;
     height: 48px;
 }
