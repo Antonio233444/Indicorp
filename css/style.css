@@ -46,6 +46,15 @@ body {
     list-style-type: none;
 }
 
+/* @media (max-width:768px) {
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+
 .nav__item {
     margin-right: 21px;
 }
@@ -71,6 +80,19 @@ body {
     margin-bottom: 35px;
 }
 
+@media (max-width:768px) {
+    .header__title {
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .header__description {
+        text-align: center;
+        max-width: 279px;
+    }
+}
+
 .header__description {
     font-size: 20px;
     color: #737373;
@@ -79,8 +101,20 @@ body {
     margin-bottom: 35px;
 }
 
+
 .header__buttons {
 
+}
+
+@media (max-width:768px) {
+    .header__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn--brand {
+        margin-bottom: 25px;
+    }
 }
 
 .btn {
@@ -121,6 +155,21 @@ body {
     left: 120px;
 }
 
+/* @media (max-width:768px) {
+    .utp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .utp__item {
+        margin-bottom: 30px;
+    }
+
+    .utp__item:last-child {
+        margin-bottom: 0;
+    }
+} */
+
 .utp__icon {
     display: block;
     margin-bottom: 10px;
@@ -135,6 +184,10 @@ body {
 
 .utp__item--inversive {
     background-color: #00A0C1;
+}
+
+.utp__item--inversive > .utp__title, .utp__item--inversive > .utp__text {
+    color: #fff;
 }
 
 .utp__title {
