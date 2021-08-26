@@ -38,7 +38,7 @@ body {
     .header__container {
         background-color: #fff ;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     }
@@ -68,6 +68,12 @@ body {
     display: none;
     cursor: pointer;
 }
+
+@media screen and (max-width: 479px) {
+    .loupe, .cart, .burger {
+        margin-left: 0;
+    }
+    }
 
 
 @media screen and (max-width: 479px) {
