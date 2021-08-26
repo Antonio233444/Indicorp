@@ -50,7 +50,7 @@ body {
 
 @media screen and (max-width: 479px) {
     .header__logo {
-        margin-right: 0;
+        margin-right: 50px;
     }
     
     }
@@ -105,6 +105,15 @@ body {
 @media screen and (max-width: 479px) {
     .nav__item {
         margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .nav__item:first-child {
+        margin-top: 83px;
+    }
+
+    .nav__item:last-child {
+        margin-bottom: 98px;
     }
     
     }
@@ -172,6 +181,7 @@ body {
 @media screen and (max-width: 479px) {
     .header__buttons {
         text-align: center;
+        margin-top: 80px;
     }
     
     }
@@ -265,6 +275,19 @@ body {
     background-color: #fff;
     padding: 35px 40px;
 }
+
+
+@media screen and (max-width: 479px) {
+    .utp__item {
+        margin-bottom: 30px;
+    }
+    .utp__item:last-child {
+        margin-bottom: 205px;
+    }
+    
+    }
+
+
 
 .utp__item--inversive {
     background-color: #00A0C1;
