@@ -38,6 +38,7 @@ body {
     .header__container {
         background-color: #fff ;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     
     }
