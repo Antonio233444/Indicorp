@@ -773,7 +773,7 @@ body {
     margin-bottom: 15px;
 }
 
-.btn {
+.button {
     padding: 10px 20px;
     background-color: #fff;
     border: 1px solid #FFA62B;
@@ -785,18 +785,18 @@ body {
     transition: background-color 0.2s linear;
 }
 
-.btn:hover {
+.button:hover {
     color: #fff;
     background-color: #FFA62B ;
 }
 
-.btn--blue {
+.button--blue {
     background-color: #252B42;
     color: #fff;
     border: 1px solid #fff;
 }
 
-.btn--blue:hover {
+.button--blue:hover {
     background-color: #fff;
     color: #252B42;
 }
