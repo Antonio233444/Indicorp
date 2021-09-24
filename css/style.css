@@ -170,6 +170,7 @@ body {
     font-weight: 600;
     margin-bottom: 35px;
     line-height: 30px;
+    max-width: 376px;
 }
 
 @media screen and (max-width: 479px) {
@@ -535,8 +536,8 @@ body {
     font-weight: 700;
     color: var(--title-text-color);
     margin-bottom: 15px;
-    /* max-width: 135px; */
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .advice__item-text {
