@@ -28,6 +28,7 @@ body {
     background-position: center center;
     background-size: cover;
     margin-bottom: 131px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .header__container {
@@ -273,6 +274,7 @@ body {
     background-color: #fff;
     padding: 35px 20px;
     margin-bottom: -20px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
 
 @media (max-width: 767px) {
@@ -600,7 +602,7 @@ body {
 
 .about__body {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 60% calc(40% - 120px) ;
     grid-gap: 120px;
 }
 
@@ -729,14 +731,14 @@ body {
 
 .newsletter {
     padding-top: 70px;
+    height: 339px;
     border-bottom: 1px solid #000;
     position: relative;
     margin-bottom: 80px;
-    z-index: 1;
-    padding-bottom: 20px;
+    background: linear-gradient(360deg, #252B42 77px,transparent 77px,transparent);
 }
 
-.newsletter::after {
+/* .newsletter::after {
     content: '';
     height: 77px;
     background-color:#252B42;
@@ -745,7 +747,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-} 
+}  */
 
 
 .newsletter__body {
