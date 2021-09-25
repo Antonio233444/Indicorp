@@ -27,12 +27,14 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    margin-bottom: 131px;
 }
 
 .header__container {
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 479px) {
@@ -265,6 +267,7 @@ body {
 .utp__item {
     background-color: #fff;
     padding: 35px 40px;
+    margin-bottom: -20px;
 }
 
 @media (max-width: 767px) {
@@ -341,7 +344,8 @@ body {
 
 
 .advantages__list {
-    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-bottom: 80px;
 }
 
@@ -350,7 +354,6 @@ body {
     font-size: 40px;
     line-height: 57px;
     font-weight: 700;
-    text-transform: uppercase;
     color: var(--title-text-color);
     text-align: center;
     margin-bottom: 15px;
@@ -395,7 +398,7 @@ body {
 
 .advantages__item {
     background-color: #fff;
-    padding: 30px 30px;
+    padding: 30px 25px;
     text-align: center;
 }
 
@@ -467,6 +470,8 @@ body {
 /*Секция advice*/
 
 .advice__list {
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-bottom: 100px;
 }
 
@@ -519,9 +524,15 @@ body {
 .advice__item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #fff;
-    padding-top: 30px;
+}
+
+.advice__head {
+    padding: 30px;
+}
+
+.advice__pic {
+    margin-top: auto;
 }
 
 @media (max-width:479px) {
@@ -536,8 +547,6 @@ body {
     font-weight: 700;
     color: var(--title-text-color);
     margin-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .advice__item-text {
@@ -545,9 +554,7 @@ body {
     line-height: 20px;
     font-weight: 500;
     color: var(--description-text-color);
-    margin-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 42px;
+
 }
 
 
@@ -715,6 +722,12 @@ body {
     margin-bottom: 50px;
 }
 
+.newsletter__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media (max-width: 479px) {
     .newsletter__header {
@@ -831,6 +844,7 @@ body {
 .feedback__body {
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
+  align-items: center;
 }
 
 @media (max-width: 479px) {
@@ -865,7 +879,9 @@ body {
 }
 
 .feedback__item--blue {
-    background-color: #252B42;   
+    background-color: #252B42;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .feedback__item--blue .feedback__email,
