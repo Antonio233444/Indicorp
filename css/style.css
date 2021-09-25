@@ -208,6 +208,11 @@ body {
     line-height: 28px;
     vertical-align: top;
     transition: background-color 0.2s linear;
+    max-width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 @media screen and (max-width: 479px) {
@@ -829,6 +834,10 @@ body {
     outline: none;
     cursor: pointer;
     transition: background-color 0.2s linear;
+    max-width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .newsletter__button:hover {
@@ -951,6 +960,10 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.2s linear;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .button:hover {
@@ -958,13 +971,13 @@ body {
     background-color: #FFA62B ;
 }
 
-.button--blue {
+.button--special {
     background-color: #252B42;
     color: #fff;
     border: 1px solid #fff;
 }
 
-.button--blue:hover {
+.button--special:hover {
     background-color: #fff;
     color: #252B42;
 }
@@ -1022,6 +1035,10 @@ body {
     outline: none;
     transition: background-color 0.2s linear;
     cursor: pointer;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .contact__button:hover {
