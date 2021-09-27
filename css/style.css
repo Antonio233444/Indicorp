@@ -765,7 +765,7 @@ body {
 
 @media (max-width: 479px) {
     .newsletter__header {
-        /* grid-template-columns: repeat(1, 1fr); */
+        grid-template-columns: repeat(1, 1fr);
     }
  }
 
@@ -828,6 +828,7 @@ body {
     display: flex;
 }
 
+
 .newsletter__input::placeholder {
     color: #737373;
 }
@@ -839,7 +840,6 @@ body {
     line-height: 28px;
     letter-spacing: 0.2px;
     outline: none;
-
 }
 
 
