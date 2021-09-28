@@ -511,6 +511,10 @@ body {
 }
 
 
+.advice__body-link {
+    text-decoration: none;
+}
+
 
 @media (max-width: 767px) {
     .advice__body {
@@ -577,7 +581,7 @@ body {
 /*Секция about*/
 
 .about {
-   padding-top: 100px;
+   padding-top: 90px;
    padding-bottom: 100px;
 }
 
@@ -840,6 +844,7 @@ body {
     line-height: 28px;
     letter-spacing: 0.2px;
     outline: none;
+    border: none;
 }
 
 
