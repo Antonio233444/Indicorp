@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 1046px;
+    max-width: 1086px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -33,7 +33,7 @@ body {
 
 .header__container {
     display: flex;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     margin-bottom: 80px;
 }
@@ -154,6 +154,7 @@ body {
     max-width: 509px;
     margin-bottom: 35px;
     line-height: 80px;
+    padding-top: 14px;
 }
 
 @media screen and (max-width: 479px) {
@@ -186,7 +187,7 @@ body {
 
 
 .header__buttons {
-    margin-bottom: 109px;
+    margin-bottom: 110px;
 }
 
 @media screen and (max-width: 479px) {
@@ -202,7 +203,7 @@ body {
 .btn {
     display: inline-block;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 45px;
     padding: 10px 36px;
     border-radius: 37px;
     font-weight: 700;
@@ -272,7 +273,7 @@ body {
 
 .utp__item {
     background-color: #fff;
-    padding: 35px 20px;
+    padding: 5px 31px;
     margin-bottom: -20px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
@@ -328,7 +329,7 @@ body {
     color: var(--description-text-color);
     font-weight: 500;
     max-width: 218px;
-    line-height: 20px;
+    line-height: 16px;
 }
 
 .utp__item--inversive .utp__title,
@@ -351,9 +352,9 @@ body {
 
 
 .advantages__container {
-    padding-top: 80px;
+    padding-top: 115px;
     padding-bottom: 80px;
-    margin-bottom: 23px;
+    margin-bottom: 67px;
 }
 
 /*общий класс для всех заголовков*/
@@ -363,7 +364,9 @@ body {
     font-weight: 700;
     color: var(--title-text-color);
     text-align: center;
-    margin-bottom: 10px;
+    max-width: 480px;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 
@@ -391,6 +394,8 @@ body {
     font-weight: 500;
     color: var(--description-text-color);
     text-align: center;
+    max-width: 511px;
+    margin: 0 auto;
     margin-bottom: 45px;
 }
 
@@ -405,7 +410,7 @@ body {
 
 .advantages__item {
     background-color: #fff;
-    padding: 60px 17px;
+    padding: 34px 17px;
     text-align: center;
 }
 
@@ -477,9 +482,9 @@ body {
 /*Секция advice*/
 
 .advice__container {
-    padding-top: 51px;
+    padding-top: 49px;
     padding-bottom: 80px;
-    margin-bottom: 3px;
+    margin-bottom: 22px;
 }
 
 .wrapper {
@@ -501,6 +506,8 @@ body {
     font-weight: 500;
     color: #737373;
     text-align: center;
+    max-width: 470px;
+    margin: 0 auto;
     margin-bottom: 45px;
 }
 
@@ -581,7 +588,7 @@ body {
 /*Секция about*/
 
 .about {
-   padding-top: 90px;
+   padding-top: 68px;
    padding-bottom: 100px;
 }
 
@@ -601,13 +608,15 @@ body {
     text-align: center;
     color: var(--description-text-color);
     text-align: center;
-    margin-bottom: 128px;
+    margin: 0 auto;
+    max-width: 511px;
+    margin-bottom: 99px;
 }
 
 .about__body {
     display: grid;
     grid-template-columns: 58% calc(42% - 120px) ;
-    grid-gap: 115px;
+    grid-gap: 113px;
 }
 
 @media (max-width: 767px) {
@@ -736,11 +745,11 @@ body {
 /*Секция Newsletter*/
 
 .newsletter {
-    padding: 50px 0;
+    padding: 40px 0;
     height: 339px;
     border-bottom: 1px solid #000;
     position: relative;
-    margin-bottom: 54px;
+    margin-bottom: 74px;
     background: linear-gradient(360deg, #252B42 77px,transparent 77px,transparent);
 }
 
@@ -765,7 +774,7 @@ body {
     display: grid;
     grid-template-columns: repeat(6 ,1fr);
     grid-gap: 26px;
-    margin-bottom: 50px;
+    margin-bottom: 76px;
 }
 
 
@@ -811,7 +820,7 @@ body {
 
 .newsletter__footer {
     background-color: #16697A;
-    padding: 30px 50px 40px;
+    padding: 32px 81px 40px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start ;
@@ -946,7 +955,7 @@ body {
 
 .feedback__image {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .feedback__image-pic {
@@ -1141,8 +1150,8 @@ body {
 
 }
 
-.socials__list {
-    padding: 25px 0;
+.socials__container {
+    padding: 39px 0;
 }
 
 .socials__body {
@@ -1183,7 +1192,7 @@ body {
 }
 
 .socials__column-link {
-    margin-right: 20px;
+    margin-right: 25px;
     display: inline-block;
 }
 
