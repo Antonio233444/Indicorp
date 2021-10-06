@@ -746,11 +746,10 @@ body {
 /*Секция Newsletter*/
 
 .newsletter {
-    padding: 22px 0;
-    /* height: 339px; */
+    padding: 10px 0;
     border-bottom: 1px solid #000;
     position: relative;
-    margin-bottom: 57px;
+    margin-bottom: 80px;
     background: linear-gradient(360deg, #252B42 77px,transparent 77px,transparent);
 }
 
@@ -885,8 +884,6 @@ body {
 
 .feedback__container {
     margin-bottom: 142px;
-    padding-top: 80px;
-    padding-bottom: 80px;
 }
 
 /* .feedback__title {
@@ -1019,13 +1016,16 @@ body {
 /*Секция Contact*/
 
 .contact {
-   padding: 40px 0;
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
 
 .contact__body {
     display: flex;
     justify-content: space-between;
 }
+
+
 
 @media (max-width: 479px) {
     .contact__body {
@@ -1132,6 +1132,7 @@ body {
 
 .company__item-item {
     color: #fff;
+    margin-bottom: 8px;
 }
 
 .company__item-link {
@@ -1154,7 +1155,7 @@ body {
 }
 
 .socials__container {
-    padding: 39px 0;
+    padding: 25px 0;
 }
 
 .socials__body {
