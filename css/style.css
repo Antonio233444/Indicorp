@@ -187,7 +187,7 @@ body {
 
 
 .header__buttons {
-    margin-bottom: 110px;
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 479px) {
@@ -203,14 +203,14 @@ body {
 .btn {
     display: inline-block;
     text-decoration: none;
-    margin-right: 45px;
+    margin-right: 10px;
     padding: 10px 36px;
     border-radius: 37px;
     font-weight: 700;
     line-height: 28px;
     vertical-align: top;
     transition: background-color 0.2s linear;
-    max-width: 170px;
+    max-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -273,7 +273,7 @@ body {
 
 .utp__item {
     background-color: #fff;
-    padding: 5px 31px;
+    padding: 32px 31px 40px;
     margin-bottom: -20px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
@@ -329,7 +329,7 @@ body {
     color: var(--description-text-color);
     font-weight: 500;
     max-width: 218px;
-    line-height: 16px;
+    line-height: 20px;
 }
 
 .utp__item--inversive .utp__title,
@@ -352,9 +352,9 @@ body {
 
 
 .advantages__container {
-    padding-top: 115px;
+    padding-top: 80px;
     padding-bottom: 80px;
-    margin-bottom: 67px;
+    margin-bottom: 80px;
 }
 
 /*общий класс для всех заголовков*/
@@ -410,7 +410,7 @@ body {
 
 .advantages__item {
     background-color: #fff;
-    padding: 34px 17px;
+    padding: 25px 17px;
     text-align: center;
 }
 
@@ -482,9 +482,9 @@ body {
 /*Секция advice*/
 
 .advice__container {
-    padding-top: 49px;
+    padding-top: 45px;
     padding-bottom: 80px;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 .wrapper {
@@ -506,8 +506,8 @@ body {
     font-weight: 500;
     color: #737373;
     text-align: center;
-    max-width: 470px;
-    margin: 0 auto;
+    /* max-width: 470px;
+    margin: 0 auto; */
     margin-bottom: 45px;
 }
 
@@ -663,7 +663,8 @@ body {
     line-height: 57px;
     font-weight: 700;
     color: var(--title-text-color);
-    margin-bottom: 10px;
+    padding-top: 24px;
+    margin-bottom: 9px;
 }
 
 .about__item-text {
@@ -671,7 +672,7 @@ body {
     line-height: 20px;
     font-weight: 500;
     color: var(--description-text-color);
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .about__description {
@@ -693,7 +694,7 @@ body {
     line-height: 24px;
     font-weight: 700;
     color: var(--title-text-color);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .about__description-text {
@@ -745,11 +746,11 @@ body {
 /*Секция Newsletter*/
 
 .newsletter {
-    padding: 40px 0;
-    height: 339px;
+    padding: 22px 0;
+    /* height: 339px; */
     border-bottom: 1px solid #000;
     position: relative;
-    margin-bottom: 74px;
+    margin-bottom: 57px;
     background: linear-gradient(360deg, #252B42 77px,transparent 77px,transparent);
 }
 
@@ -884,6 +885,8 @@ body {
 
 .feedback__container {
     margin-bottom: 142px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* .feedback__title {
