@@ -301,6 +301,7 @@ body {
 
     .header{
         margin-bottom: 205px;
+        padding-bottom: 205px;
     }  
 }
 
@@ -780,30 +781,20 @@ body {
 
 @media (max-width: 479px) {
     .newsletter__header {
-        /* grid-template-columns: repeat(1, 1fr); */
+       grid-template-columns: repeat(1 , 1fr);
+       grid-gap: 60px;
     }
  }
 
 
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .newsletter__header {
-        
+        grid-template-columns: repeat(2 , 1fr);
     }
-}
-
-@media (max-width: 479px) {
-    .newsletter__body {
-        grid-template-columns: repeat(1, 1fr);
-    }
- }
+} */
 
 
-@media (max-width: 767px) {
-    .newsletter__body{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
 
 .newsletter__item {
@@ -821,18 +812,19 @@ body {
 .newsletter__footer {
     background-color: #16697A;
     padding: 32px 81px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start ;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2 , 1fr);
 }
 
 .newsletter__footer-text {
-    margin-right: 180px;
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
     color: #fff;
 }
+
+
 
 .newsletter__form {
     display: flex;
@@ -851,6 +843,7 @@ body {
     letter-spacing: 0.2px;
     outline: none;
     border: none;
+    width: 100%;
 }
 
 
@@ -868,6 +861,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    flex-shrink: 0;
 }
 
 .newsletter__button:hover {
@@ -919,17 +913,6 @@ body {
     }
 }
 
-
-/*Почему это перестает работать?*/
-/* @media (max-width: 767px) {
-    .feedback__body {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .feedback__item:last-child {
-        grid-column: 1/-1;
-    }
-} */
 
 
 
@@ -1023,6 +1006,9 @@ body {
 .contact__body {
     display: flex;
     justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 50px; */
 }
 
 
@@ -1155,12 +1141,15 @@ body {
 }
 
 .socials__container {
-    padding: 25px 0;
+    padding: 12px 0;
 }
 
 .socials__body {
     display: flex;
     justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 640px; */
 }
 
 
