@@ -22,6 +22,10 @@ body {
     padding-right: 20px;
 }
 
+.container--narrow {
+    max-width: 1032px;
+}
+
 .header {
     background: url('../img/background.png');
     background-repeat: no-repeat;
@@ -811,9 +815,8 @@ body {
 
 .newsletter__footer {
     background-color: #16697A;
-    padding: 32px 81px 40px;
+    padding: 32px 55px 40px;
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(2 , 1fr);
 }
 
@@ -876,7 +879,7 @@ body {
 /*Секция Feedback*/
 
 
-.feedback__container {
+.feedback--container {
     margin-bottom: 142px;
 }
 
@@ -1003,6 +1006,8 @@ body {
    padding-bottom: 40px;
 }
 
+
+
 .contact__body {
     display: flex;
     justify-content: space-between;
@@ -1072,6 +1077,8 @@ body {
 
 }
 
+
+
 .company__wrapper {
     background-color: #16697A;
 }
@@ -1115,6 +1122,8 @@ body {
 .company__item-list {
     list-style-type: none;
 }
+
+
 
 .company__item-item {
     color: #fff;
