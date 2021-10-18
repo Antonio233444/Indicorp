@@ -309,10 +309,14 @@ body {
     }  
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
     .utp {
        grid-template-columns: 1fr;
        grid-gap: 30px;
+    }
+
+    .utp__item {
+        margin-bottom: 30px;
     }
 
 }
@@ -423,6 +427,7 @@ body {
 @media screen and (max-width: 479px) {
     .advantages__item {
         margin-bottom: 30px;
+        padding: 30px 91px;
     }
 }
 
@@ -758,16 +763,9 @@ body {
     background: linear-gradient(360deg, #252B42 77px,transparent 77px,transparent);
 }
 
-/* .newsletter::after {
-    content: '';
-    height: 77px;
-    background-color:#252B42;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-}  */
+
+
+
 
 
 .newsletter__body {
@@ -780,7 +778,16 @@ body {
     grid-template-columns: repeat(6 ,1fr);
     grid-gap: 26px;
     margin-bottom: 76px;
+    padding-top: 50px;
 }
+
+
+@media (max-width: 767px) {
+    .newsletter__header {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
 
 
 @media (max-width: 479px) {
@@ -788,16 +795,11 @@ body {
        grid-template-columns: repeat(1 , 1fr);
        grid-gap: 60px;
     }
- }
 
-
-
-/* @media (max-width: 767px) {
-    .newsletter__header {
-        grid-template-columns: repeat(2 , 1fr);
+    .container--narrow {
+        padding: 0;
     }
-} */
-
+ }
 
 
 
@@ -829,6 +831,25 @@ body {
 
 
 
+@media (max-width: 767px) {
+   .newsletter__footer {
+       display: block;
+       padding: 30px 38px;
+   }
+
+   .newsletter__footer-text {
+       font-size: 24px;
+       line-height: 32px;
+       text-align: center;
+       margin-bottom: 30px;
+   }
+}
+
+
+
+
+
+
 .newsletter__form {
     display: flex;
 }
@@ -846,6 +867,7 @@ body {
     letter-spacing: 0.2px;
     outline: none;
     border: none;
+    border-radius: 5px 0px 0px 5px;
     width: 100%;
 }
 
@@ -857,6 +879,7 @@ body {
     color: #fff;
     padding: 15px 22px;
     border: none;
+    border-radius: 0px 5px 5px 0px;
     outline: none;
     cursor: pointer;
     transition: background-color 0.2s linear;
@@ -906,6 +929,19 @@ body {
   grid-template-columns: repeat(3 , 1fr);
   align-items: center;
 }
+
+
+@media (max-width: 767px) {
+        .feedback__item {
+            
+        }
+
+    .feedback__item:last-child {
+        grid-column: 1/-1;
+    }
+}
+
+
 
 @media (max-width: 479px) {
     .feedback__body {
@@ -1085,7 +1121,7 @@ body {
 
 .company__list {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 14.5% 15% 14.5% 15% 1fr;
     grid-gap: 25px;
     padding: 50px 0;
 }
