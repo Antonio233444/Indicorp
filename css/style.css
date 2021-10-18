@@ -51,6 +51,7 @@ body {
     
     }
 
+
 .header__logo {
     margin-right: 117px;
     flex-shrink: 0;
@@ -120,7 +121,7 @@ body {
 @media screen and (max-width: 479px) {
     .nav__item {
         margin-right: 0;
-        margin-bottom: 30px;
+        margin-bottom: 36px;
     }
 
     .nav__item:first-child {
