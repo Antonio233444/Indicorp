@@ -35,6 +35,9 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+
+
+
 .header__container {
     display: flex;
     padding-top: 40px;
@@ -47,9 +50,12 @@ body {
         background-color: #fff ;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding-bottom: 0;
     }
     
     }
+
+
 
 
 .header__logo {
@@ -168,6 +174,8 @@ body {
         line-height: 57px;
         text-align: center;
         margin-top: 80px;
+        margin-bottom: 39px;
+        padding-top: 0;
     }
     
     }
@@ -186,6 +194,7 @@ body {
     .header__description {
         text-align: center;
         max-width: 279px;
+        margin: 0 auto;
     }
     
     }
@@ -199,6 +208,7 @@ body {
     .header__buttons {
         text-align: center;
         margin-top: 80px;
+        margin-bottom: 84px;
     }
     
     }
@@ -318,6 +328,7 @@ body {
 
     .utp__item {
         margin-bottom: 30px;
+        padding: 20px 51px;
     }
 
 }
@@ -380,6 +391,8 @@ body {
 }
 
 
+
+
 /* .advantages__title {
     font-size: 40px;
     line-height: 57px;
@@ -393,6 +406,8 @@ body {
 @media screen and (max-width: 479px) {
     .advantages__title {
         text-align: center;
+        max-width: 252px;
+        margin: 0 auto;
     }
     
     }
@@ -413,8 +428,10 @@ body {
 @media screen and (max-width: 479px) {
     .advantages__text {
         text-align: center;
+        max-width: 225px;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
-    
     }
 
 
@@ -517,9 +534,22 @@ body {
     font-weight: 500;
     color: #737373;
     text-align: center;
-    /* max-width: 470px;
-    margin: 0 auto; */
     margin-bottom: 45px;
+}
+
+@media (max-width:479px) {
+    .advice__text {
+        margin-bottom: 75px;       
+    }
+}
+
+@media (max-width:479px) {
+    .advice__title {
+        text-align: center;
+        max-width: 180px;
+        margin: 0 auto;
+        margin-bottom: 10px;       
+    }
 }
 
 .advice__body {
@@ -792,6 +822,10 @@ body {
 
 
 @media (max-width: 479px) {
+    .newsletter {
+        padding: 0;
+    }
+
     .newsletter__header {
        grid-template-columns: repeat(1 , 1fr);
        grid-gap: 60px;
@@ -842,6 +876,8 @@ body {
        font-size: 24px;
        line-height: 32px;
        text-align: center;
+       max-width: 266px;
+       margin: 0 auto;
        margin-bottom: 30px;
    }
 }
